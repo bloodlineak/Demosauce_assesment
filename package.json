@@ -1,0 +1,17 @@
+{
+  "name": "saucedemo-qa-assessment",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Risk-based SauceDemo exploratory notes and a Playwright TypeScript checkout test",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "@types/node": "^22.15.30",
+    "typescript": "^5.8.3"
+  }
+}
